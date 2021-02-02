@@ -3,12 +3,13 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "web": "expo start --web",
+    "web": "expo start",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
     "expo": "~40.0.0",
+    "expo-contacts": "^9.0.0",
     "expo-splash-screen": "~0.8.0",
     "expo-status-bar": "~1.0.3",
     "expo-updates": "~0.4.0",
